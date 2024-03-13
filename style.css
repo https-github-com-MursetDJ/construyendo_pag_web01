@@ -12,6 +12,7 @@ header {
 }
 
 a {
+    transition-duration: 500ms;
     display: flex;
     color: white;
     text-decoration: none;
@@ -128,13 +129,36 @@ footer {
 
 }
 
+article:hover {
+    transition-duration: 800ms;
+    border-color: green;
+    box-shadow: 10px 5px 5px black;
+}
+
+article a {
+    display: block;
+}
+
+.section-3 article a:hover {
+    transition-duration: 500ms;
+    scale: 1.01;
+    text-decoration: underline;
+    color: red;
+
+}
+
 article {
+    transition-duration: 800ms;
+    border: solid;
+    border-color: blue;
+    border-radius: 20px;
     display: inline-block;
     width: 250px;
-    height: 350px;
+    height: 370px;
 }
 
 .section-3 article a {
+    transition-duration: 300ms;
     color: black;
 }
 
@@ -163,6 +187,7 @@ article {
 
 
 .form-header {
+    border-radius: 50px;
     font-family: "Helvetica", "Arial", sans-serif;
     font-size: 16px;
     display: flex;
