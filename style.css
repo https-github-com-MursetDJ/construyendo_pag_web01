@@ -162,7 +162,10 @@ article {
     color: black;
 }
 
-
+.form-header h1 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
 
 .section-3 article img {
     border-radius: 20px;
@@ -187,6 +190,7 @@ article {
 
 
 .form-header {
+    flex-wrap: wrap;
     border-radius: 50px;
     font-family: "Helvetica", "Arial", sans-serif;
     font-size: 16px;
